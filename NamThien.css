@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efefef;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+}
+
+.left-sidebar {
+    flex-basis: 20%;
+    position: sticky;
+    top: 70px;
+    align-items: flex-start;
+}
+
+.right-sidebar {
+    flex-basis: 20%;
+    position: sticky;
+    top: 70px;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex-basis: 40%;
+    
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    padding:20px;
+    columns: #626262;
+}
+
+.user-profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p{
+    margin-bottom: -5px;
+    font-weight: 1500;
+    color: #052E39;
+}
+
+.user-profile small{
+    font-size: 12px;
+    color: #626262;;
+}
+
+/* đăng bài */
+.post-input-container {
+    padding-left: 25px;
+    padding-top: 20px;
+
+}
+
+.post-input-container textarea {
+    width:100%;
+    border: 2px;
+    border-color: #545454;
+    outline: 1px;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+#button-post-container{
+    background: none;
+    border: 0;
+    padding:8px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #052E39;
+}
+
+
+.add-post-links{
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-post-links a i{
+    width:30px;
+    margin-right: 10px;
+    font-size: 30px;
+}
